@@ -1,0 +1,26 @@
+*{
+padding: 0px;
+margin: 0px;
+    box-sizing: border-box;
+
+}
+.root{
+    --font-sm:10px;
+    --font-family:10px;
+    --
+}
+.body{
+}
+.img{
+   display:block ;
+   width: 388px;
+   height: 159px;
+   padding: 20px 60px;
+}
+.v1{
+    
+}
+
+@media screen { max: width 100%;
+}
+
