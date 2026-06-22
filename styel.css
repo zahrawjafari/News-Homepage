@@ -21,6 +21,12 @@
   --fs-400: 1rem;
   --fs-300: 0.875rem;
 }
+body{
+    display: grid;
+font-family:"Inter";
+    height: 100%;
+    max-width: 100%;
+}
 /* navbar */
 .nav{
     display: flex;
@@ -48,11 +54,11 @@ font-family: Inter;
     gap: 20px;
 }
 .img2{
-    max-width: 195%;
+    width: 850px;
     height: auto;
     display: block;
     padding: 20px 20px;
-    margin-left: 15px;
+    margin-left: 8px;
 }
 .h2{
     font-size: 7rem;
@@ -86,15 +92,21 @@ font-family: Inter;
     background-color: hsl(5, 85%, 63%);
     margin-left: 50px;
     color: white;
-    gap: 20px;
+    margin-top: 30px;
 }
 /* sidebar */
 .v1{
+box-sizing: border-box;
 background-color: hsl(240, 100%, 5%);
 color: white;
-padding: 25px;
-width: 800px;
-height: 800px;
+padding: 10px;
+width: 100%;
+max-width: 428px;
 margin-left: 30px;
-gap: 20px;
+margin-top: 10px;
+}
+.carde1{
+   color: hsl(35, 77%, 62%);
+   width: 388.800px;
+   height: 486px;
 }
