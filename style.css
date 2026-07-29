@@ -1,0 +1,74 @@
+:root{
+    --Soft-orange:hsl(35,77%,62%);
+    --Soft-red:hsl(5,85%,63%);
+    --Off-white:hsl(36,100%,99%);
+    --Grayish-blue:hsl(233,8%,79%);
+    --Dark-grayish-blue:hsl(236,13%,42%);
+    --Very-dark-blue:hsl(240,100%,5%);
+}
+
+body{
+    background:var(--Off-white);
+    color:var(--Very-dark-blue);
+}
+
+.logo{
+    color:var(--Very-dark-blue);
+}
+
+.menu a{
+    color:var(--Dark-grayish-blue);
+}
+
+.menu a:hover{
+    color:var(--Soft-red);
+}
+
+.menu-icon{
+    color:var(--Very-dark-blue);
+}
+
+.hero-image{
+    width:100%;
+}
+
+.content h1{
+    color:var(--Very-dark-blue);
+}
+
+.info p{
+    color:var(--Dark-grayish-blue);
+}
+
+button{
+    background:var(--Soft-red);
+    color:var(--Off-white);
+}
+
+button:hover{
+    background:var(--Very-dark-blue);
+}
+
+.right{
+    background:var(--Very-dark-blue);
+}
+
+.right h2{
+    color:var(--Soft-orange);
+}
+
+.card h3{
+    color:var(--Off-white);
+}
+
+.card h3:hover{
+    color:var(--Soft-orange);
+}
+
+.card p{
+    color:var(--Grayish-blue);
+}
+
+hr{
+    border:1px solid var(--Dark-grayish-blue);
+}
